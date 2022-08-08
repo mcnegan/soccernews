@@ -32,6 +32,8 @@ android {
 
 dependencies {
 
+
+
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
@@ -47,7 +49,10 @@ dependencies {
     // Picasso https://square.github.io/picasso/
     implementation 'com.squareup.picasso:picasso:2.8'
 
-
+    // Reference: https://developer.android.com/training/data-storage/room
+    implementation 'androidx.room:room-runtime:2.4.3'
+    implementation 'androidx.room:room-common:2.4.3'
+    annotationProcessor "androidx.room:room-compiler:2.4.3"
 
     testImplementation 'junit:junit:4.13.2'
 
